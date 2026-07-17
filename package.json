@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "playwright": "^1.61.1"
+  },
+  "name": "testtask",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "playwright-bdd": "^9.2.0"
+  },
+   "scripts": {
+    "bddgen": "bddgen",
+    "test": "npm run bddgen && npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
